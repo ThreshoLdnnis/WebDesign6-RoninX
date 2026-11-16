@@ -1,6 +1,8 @@
-# WebDesign6-RoninX
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ThreshoLdnnis/WebDesign6-RoninX/main/README-cover.svg" alt="Cyber Ronin cover" width="100%" />
+</div>
 
-![Cyber Ronin cover](./README-cover.svg)
+# WebDesign6-RoninX
 
 Cyber Ronin // Neural Edges 是一个单文件、全视口的赛博浪人主题 Hero 页面。页面融合紫色星云背景、动态星星粒子、中文 / English 切换，以及鼠标聚光揭示备用场景的交互。
 
