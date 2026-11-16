@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 840" role="img" aria-labelledby="title desc">
+  <title id="title">Cyber Ronin // Neural Edges</title>
+  <desc id="desc">Purple starfield cover with a cyber ronin helmet silhouette and interface labels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120523"/>
+      <stop offset="0.5" stop-color="#472071"/>
+      <stop offset="1" stop-color="#06030e"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="36%" cy="46%" r="68%">
+      <stop offset="0" stop-color="#b56aff" stop-opacity=".54"/>
+      <stop offset=".45" stop-color="#6f2ba9" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#14051f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="840" fill="url(#bg)"/>
+  <rect width="1600" height="840" fill="url(#nebula)"/>
+  <g fill="#fff">
+    <circle cx="120" cy="104" r="2"/><circle cx="220" cy="188" r="1.5"/><circle cx="348" cy="72" r="2.4"/>
+    <circle cx="458" cy="236" r="1.4"/><circle cx="566" cy="118" r="2"/><circle cx="702" cy="212" r="1.4"/>
+    <circle cx="842" cy="90" r="2.2"/><circle cx="958" cy="186" r="1.5"/><circle cx="1104" cy="96" r="2.3"/>
+    <circle cx="1286" cy="168" r="1.6"/><circle cx="1460" cy="96" r="2.2"/><circle cx="1510" cy="302" r="1.2"/>
+    <circle cx="178" cy="452" r="1.8"/><circle cx="312" cy="558" r="1.2"/><circle cx="1260" cy="554" r="1.6"/>
+    <circle cx="1386" cy="466" r="2"/><circle cx="1496" cy="654" r="1.4"/>
+  </g>
+  <g fill="none" stroke="#e8caff" stroke-opacity=".52">
+    <path d="M1100 690a260 260 0 1 0-520 0" stroke-width="2"/>
+    <path d="M1018 690a178 178 0 1 0-356 0" stroke-width="1"/>
+    <path d="M940 690a100 100 0 1 0-200 0" stroke-width="1"/>
+  </g>
+  <g transform="translate(835 170)" filter="url(#glow)">
+    <path d="M-166 382V166c0-120 94-202 180-202 104 0 182 84 182 202v216" fill="#070511" fill-opacity=".82" stroke="#e3c4ff" stroke-width="4"/>
+    <path d="M-122 210c28-98 85-150 145-150 74 0 119 50 132 150l-70-36-108 22-60-28z" fill="#29114e" stroke="#c884ff" stroke-width="4"/>
+    <path d="M-18 170h98l-18 98H0z" fill="#0b0615" stroke="#f7ecff" stroke-width="4"/>
+    <circle cx="38" cy="218" r="24" fill="#160721" stroke="#e8caff" stroke-width="4"/>
+    <circle cx="38" cy="218" r="8" fill="#d26cff"/>
+    <path d="M-184 386h396l-64 144H-118z" fill="#10071d" stroke="#b46dff" stroke-width="4"/>
+  </g>
+  <g fill="#f7ecff" font-family="Arial, sans-serif" letter-spacing="8">
+    <text x="86" y="104" font-size="20" opacity=".68">NEURAL EDGES / 06</text>
+    <text x="86" y="650" font-size="74" font-weight="700">CYBER RONIN</text>
+    <text x="92" y="708" font-size="24" opacity=".76">PURPLE STARFIELD • BILINGUAL UI • SPOTLIGHT REVEAL</text>
+  </g>
+  <g fill="#dcb7ff" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">
+    <text x="86" y="778">WEBDESIGN6-RONINX</text>
+    <text x="1348" y="778">01 / 26</text>
+  </g>
+</svg>
