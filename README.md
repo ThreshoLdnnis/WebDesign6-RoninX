@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./README-cover.png" alt="Cyber Ronin cover" width="100%" />
+  <img src="./README-cover.jpg" alt="Cyber Ronin cover" width="100%" />
 </div>
 
 # WebDesign6-RoninX
